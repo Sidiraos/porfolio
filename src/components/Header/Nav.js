@@ -1,14 +1,10 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link , NavLink } from 'react-router-dom';
 import FontAwesome from './FontAwesome';
 function Nav() {
 	const navRef = useRef();
-	useEffect(() => {
-		console.log(navRef.current.offsetHeight);
-		document.body.style.paddingTop = navRef.current.offsetHeight + 'px';
-	});
-	const [iconSize , setIconSize] = useState ("2xl")
-	const [icon, setIcon] = useState([
+	const iconSize = "2xl";
+	const icon = [
 		{
 			id: 1,
 			icon: 'fa-brands fa-github',
@@ -19,7 +15,7 @@ function Nav() {
 			id: 2,
 			icon: 'fa-brands fa-linkedin',
 			size: iconSize,
-			link: 'https://linkedin.com/in/sidiraos',
+			link: 'https://www.linkedin.com/in/sidi-abdillah-sidi-500001225',
 		},
 		{
 			id: 3,
@@ -27,15 +23,17 @@ function Nav() {
 			size: iconSize,
 			link: 'https://twitter.com/sidiraos',
 		},
-	]);
+	] ;
+
+
 	return (
 		<>
 			<nav
 				ref={navRef}
-				className="navbar navbar-expand-md fixed-top navbar-dark bg-dark p-3 z-index-100"
+				className="navbar navbar-expand-md bg-light p-3 "
 			>
 				<div className="container-fluid">
-					<Link className="navbar-brand" to="/">
+					<Link className="navbar-brand" to="/porfolio">
 						MyPorfolio
 					</Link>
 					<button
@@ -47,11 +45,10 @@ function Nav() {
 						aria-expanded="false"
 						aria-label="Toggle navigation"
 					>
-						<span className="navbar-toggler-icon"></span>
+					<span className="navbar-toggler-icon"></span>
 					</button>
 					<div className="collapse navbar-collapse" id="navbarNav">
-						<ul className="navbar-nav">
-							<li className="nav-item">
+						<div className="navbar-nav">
 								<Link
 									className="nav-link"
 									aria-current="page"
@@ -59,18 +56,30 @@ function Nav() {
 								>
 									Home
 								</Link>
-							</li>
-							<li className="nav-item">
+
+								<Link
+									className="nav-link"
+									aria-current="page"
+									to="#tech-stack"
+								>
+									Tech Stack
+								</Link>
+						
+							
 								<Link className="nav-link" to="#projects">
 									Projects
 								</Link>
-							</li>
-							<li className="nav-item">
+							
+						
 								<Link className="nav-link" to="#contact">
 									Contact
 								</Link>
-							</li>
-						</ul>
+						
+								<Link className="nav-link" to="about">
+									About Me
+								</Link>
+							
+						</div>
 
 						<ul className="navbar-nav ms-auto">
 
@@ -85,6 +94,7 @@ function Nav() {
 					</div>
 				</div>
 			</nav>
+
 		</>
 	);
 }

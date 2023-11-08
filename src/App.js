@@ -6,15 +6,20 @@ import Projects from './components/Projects/Projects';
 import ScrollToHashElement from './ScrollToHashElement';
 import { Routes, Route } from 'react-router-dom';
 import ScrollToTop from './ScrollTop';
+import MyTech from './components/Projects/MyTech';
+import Footer from './components/Footer/Footer';
 function App() {
 	return (
-		<div>
+		<div>			
 			<ScrollToTop />
 			<ScrollToHashElement />
 			<Header />
 			<LandingPage />
+			<MyTech />
 			<Projects />
 			<Contact />
+			<Footer />
+			
 		</div>
 	);
 }

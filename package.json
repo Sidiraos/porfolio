@@ -1,6 +1,6 @@
 {
   "name": "porfolio",
-  "version": "0.1.0",
+  "version": "V.1.1",
   "private": true,
   "homepage": "https://sidiraos.github.io/porfolio",
   "dependencies": {
@@ -11,6 +11,7 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.14.2",
     "react-scripts": "5.0.1",
+    "uuid": "^9.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
