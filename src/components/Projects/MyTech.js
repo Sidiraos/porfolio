@@ -11,9 +11,11 @@ import bootstrap from '../../assets/technologies_logo/logos_bootstrap.png';
 import sass from '../../assets/technologies_logo/logos_sass.png';
 import tailwind from '../../assets/technologies_logo/vscode-icons_file-type-tailwind.png';
 import vscode from '../../assets/technologies_logo/vscode-icons_file-type-vscode.png';
+import typeScript from '../../assets/technologies_logo/Typescript_logo.png';
+import python from '../../assets/technologies_logo/python.png';
 
 const MyTech = () => {
-    const techStack = [html , js ,git , react , firebase , redux , css , github , bootstrap , sass , tailwind , vscode]
+    const techStack = [html , js ,git , react , firebase , redux , css , github , bootstrap , sass , tailwind , vscode , typeScript , python]
   return (
     <div className='container d-flex flex-column gap-3 ' id='tech-stack'>
             <h1 className='text-center tech-stack-title title-style'>My Tech Stack</h1>

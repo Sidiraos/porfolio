@@ -9,7 +9,7 @@ function LandingPage() {
 			<div className='container'>
 				<div className='row'>
 					<div className='col align-self-center landing-heading'>
-						<h1>Hi, 👋</h1>
+						<h1><span className='greet-msg'>Hi,</span> <span className='hello-smiley'>👋</span></h1>
 						<h1>My name is</h1>
 						<h1 className='name-heading'>Sidiraos</h1>
 						<h1>I am a Front-End Developer</h1>
