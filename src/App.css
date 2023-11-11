@@ -41,6 +41,112 @@ html {
 	border-image-slice: 1;
 	/* border-image-source: linear-gradient(45deg, #E70FAA, #00C0FD); */
 }
+
+
+/* landing page */
+.landing-heading{
+	overflow: hidden;
+}
+
+.landing-heading h1:nth-child(2) {
+	transform: translateX(-100%);
+	animation: slideLeft 1s ease-in-out 1s forwards;
+}
+.landing-heading h1:nth-child(3) {
+	opacity: 0;
+	animation: fadeIn 1s ease-in-out 2s forwards;
+}
+.landing-heading h1:nth-child(4) {
+	transform: translateY(500%);
+	animation: bottomToTop 1s ease-in-out 3s forwards;
+}
+h1 span {
+	display: inline-block;
+}
+
+.hello-smiley {
+	/* animation: fadeIn 1s ease-in-out forwards; */
+	/* animation: name duration timing-function delay iteration-count direction fill-mode; */
+	animation: fadeIn 1s ease-in-out forwards, sayHello 1s ease-in-out 1s infinite forwards;
+	opacity: 0;
+	
+}
+.greet-msg {
+	animation: fadeIn 1s ease-in-out forwards , sayHello 1s ease-in-out 1s forwards ;
+	opacity: 0;
+}
+
+
+.box-img{
+	opacity: 0;
+	animation: fadeIn 1s ease-in-out 3s forwards;
+}
+
+/* tech stack sections */
+.tech-stack-logo-container {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+	gap: 50px;
+	opacity: 0;
+
+}
+
+.tech-stack-logo-container.active {
+	animation: fadeIn 1s ease-in-out 1s forwards;
+}
+
+.tech-logo-box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.tech-logo-img {
+	width: 80px;
+	height: 80px;
+}
+.tech-stack-title{
+	transform: scale(0.0);
+	opacity: 0;
+
+}
+.tech-stack-title.active {
+	animation: scaleIn 1s ease-in-out forwards;
+	opacity: 0;
+}
+.tech-stack-paragraph.active {
+	animation: scaleIn 1s ease-in-out 500ms forwards;
+
+}
+.tech-stack-paragraph {
+	transform: scale(0.0);
+	opacity: 0;
+	color: var(--dark-content, #666);
+	text-align: center;
+	font-family: 'Poppins';
+	font-size: clamp(16px, 5vw, 20px);
+	font-style: normal;
+	font-weight: 400;
+	line-height: 26px; /* 81.25% */
+}
+.tech-stack-span {
+  color: var(--Solid-Heading, #42446E);
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+
+/* projet section */
+.project-title {
+	opacity: 0;
+	transform: scale(0);
+}
+.project-title.active {
+	animation: scaleIn 1s ease-in-out 500ms forwards;
+
+}
 .card-img-top {
 	width: 100%;
 	height: 200px;
@@ -77,39 +183,55 @@ html {
 #projects {
 	margin: auto;
 }
-.tech-stack {
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-	gap: 50px;
-}
-.tech-logo-box {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-.tech-logo-img {
-	width: 80px;
-	height: 80px;
-}
-.tech-stack-title {
-}
-.tech-stack-paragraph {
-	color: var(--dark-content, #666);
-	text-align: center;
-	font-family: 'Poppins';
-	font-size: clamp(16px, 5vw, 20px);
-	font-style: normal;
-	font-weight: 400;
-	line-height: 26px; /* 81.25% */
-}
-.tech-stack-span {
-  color: var(--Solid-Heading, #42446E);
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-line-height: 26px; /* 162.5% */
+
+@keyframes scaleIn {
+	0% {
+		transform: scale(0);
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+		transform: scale(1);
+	}
 }
 
+@keyframes bottomToTop {
+	0% {
+		transform: translateY(100%);
+	}
+	100% {
+		transform: translateY(0);
+	}
+	
+}
+
+@keyframes slideLeft {
+	0% {
+		transform: translateX(-100%);
+	}
+	100% {
+		transform: translateX(0);
+	}
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
 @keyframes sayHello {
+	0% {
+		transform: rotate(0deg);
+	}
+	50%{
+		transform: rotate(45deg);
+	}
+	100%{
+		transform: rotate(0deg);
+
+	}
 	
 }

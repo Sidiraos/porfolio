@@ -1,4 +1,4 @@
-import React from 'react';
+import React , {useRef} from 'react';
 import html from '../../assets/technologies_logo/vscode-icons_file-type-html.png';
 import js from '../../assets/technologies_logo/vscode-icons_file-type-js-official.png';
 import git from '../../assets/technologies_logo/logos_git-icon.png';
@@ -13,14 +13,24 @@ import tailwind from '../../assets/technologies_logo/vscode-icons_file-type-tail
 import vscode from '../../assets/technologies_logo/vscode-icons_file-type-vscode.png';
 import typeScript from '../../assets/technologies_logo/Typescript_logo.png';
 import python from '../../assets/technologies_logo/python.png';
+import useObserver from '../../customHooks/useObserver';
 
 const MyTech = () => {
     const techStack = [html , js ,git , react , firebase , redux , css , github , bootstrap , sass , tailwind , vscode , typeScript , python]
+    const techStackTitleRef = useRef()
+    const techStackParagraphRef = useRef()
+    const techStackImageRef = useRef()
+
+    useObserver(techStackTitleRef)
+    useObserver(techStackParagraphRef)
+    useObserver(techStackImageRef)
+    
+
   return (
-    <div className='container d-flex flex-column gap-3 ' id='tech-stack'>
-            <h1 className='text-center tech-stack-title title-style'>My Tech Stack</h1>
-            <p className='text-center tech-stack-paragraph'> Technologies I’ve been working with recently</p>
-            <div className='tech-stack mt-5'>
+    <div className='container d-flex flex-column gap-3 '  id='tech-stack'>
+            <h1 ref={techStackTitleRef} className='text-center tech-stack-title title-style'>My Tech Stack</h1>
+            <p className='text-center tech-stack-paragraph' ref={techStackParagraphRef}> Technologies I’ve been working with recently</p>
+            <div className='tech-stack-logo-container mt-5' ref={techStackImageRef}>
                 {
                     techStack.map((item , index)=> {
                         return <div className='tech-logo-box' key={index}><img className='tech-logo-img' src={item} alt={item} /></div>
