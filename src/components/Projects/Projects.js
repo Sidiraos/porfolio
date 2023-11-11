@@ -3,13 +3,15 @@ import Card from './Card';
 import { projects } from './projectsData';
 import useObserver from '../../customHooks/useObserver';
 function Projects() {
-const titleRef = useRef();
-useObserver(titleRef);
+  const titleRef = useRef();
+  const techStackParagraphRef = useRef();
+  useObserver(titleRef);
+  useObserver(techStackParagraphRef)
   return (
   <section id="projects" className="py-5 mt-5">
     <div className="container">
       <h2 className="text-center title-style project-title" ref={titleRef}>Featured Projects</h2>
-      <p className='text-center tech-stack-paragraph'>Things I’ve built so far</p>
+      <p className='text-center tech-stack-paragraph' ref={techStackParagraphRef}>Things I’ve built so far</p>
       <hr className="title-hr" />
       <div className="row mt-5">
         {

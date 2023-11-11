@@ -1,5 +1,5 @@
-import React, { useEffect, useRef, useState } from 'react';
-import { Link , NavLink } from 'react-router-dom';
+import React, { useRef } from 'react';
+import { Link } from 'react-router-dom';
 import FontAwesome from './FontAwesome';
 function Nav() {
 	const navRef = useRef();
@@ -52,7 +52,7 @@ function Nav() {
 								<Link
 									className="nav-link"
 									aria-current="page"
-									to="#landing"
+									to="/porfolio"
 								>
 									Home
 								</Link>
@@ -75,8 +75,8 @@ function Nav() {
 									Contact
 								</Link>
 						
-								<Link className="nav-link" to="about">
-									About Me
+								<Link className="nav-link" to="/about">
+									About me
 								</Link>
 							
 						</div>

@@ -24,7 +24,6 @@ const MyTech = () => {
     useObserver(techStackTitleRef)
     useObserver(techStackParagraphRef)
     useObserver(techStackImageRef)
-    
 
   return (
     <div className='container d-flex flex-column gap-3 '  id='tech-stack'>

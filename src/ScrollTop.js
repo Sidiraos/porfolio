@@ -7,7 +7,7 @@ const ScrollToTop = () => {
 
   // Automatically scrolls to top whenever pathname changes
   useEffect(() => {
-    if (pathname === "/") {
+    if (pathname === "/porfolio") {
         window.scrollTo(0, 0);
       }
   }, [pathname]);

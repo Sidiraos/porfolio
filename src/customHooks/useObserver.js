@@ -2,8 +2,6 @@ import { useEffect } from "react";
 
 const useObserver = (ref) => {
     useEffect(() => {
-
-        ref.current.scrollIntoView({ behavior: "smooth" });
         const observer = new IntersectionObserver(
             (entries) => {
                 entries.forEach((entry) => {

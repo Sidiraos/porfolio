@@ -2,10 +2,8 @@ import React from 'react';
 import myprofilePicture from '../../assets/imgProfile/profile.jpg';
 
 function LandingPage() {
-
-
 	return (
-		<section id='landing' className="py-5 text-center title-style">
+		<header id='landing' className="py-5 text-center title-style">
 			<div className='container'>
 				<div className='row'>
 					<div className='col align-self-center landing-heading'>
@@ -21,7 +19,7 @@ function LandingPage() {
 
 				</div>
 			</div>
-		</section>
+		</header>
 	);
 }
 
