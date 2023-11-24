@@ -13,10 +13,13 @@ import tailwind from '../../assets/technologies_logo/vscode-icons_file-type-tail
 import vscode from '../../assets/technologies_logo/vscode-icons_file-type-vscode.png';
 import typeScript from '../../assets/technologies_logo/Typescript_logo.png';
 import python from '../../assets/technologies_logo/python.png';
+import nodeJs from '../../assets/technologies_logo/nodejs.jpg';
+import mongoDb from '../../assets/technologies_logo/MongoDB-Logo.jpg';
 import useObserver from '../../customHooks/useObserver';
 
+
 const MyTech = () => {
-    const techStack = [html , js ,git , react , firebase , redux , css , github , bootstrap , sass , tailwind , vscode , typeScript , python]
+    const techStack = [html , js ,git , react , firebase , redux , css , github , bootstrap , sass , tailwind , vscode , typeScript , python , nodeJs , mongoDb]
     const techStackTitleRef = useRef()
     const techStackParagraphRef = useRef()
     const techStackImageRef = useRef()
