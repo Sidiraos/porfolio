@@ -33,7 +33,17 @@ export const projects = [
 		techStack: 'ReactJs , Redux ,  Html , Css ',
 		id: uuidv4(),
 	},
-
+	{
+		type: 'reactJs',
+		title: 'Weather App',
+		img: 'https://img.freepik.com/free-vector/lightning-element-cute-weather-clipart-vector-grey-background_53876-135906.jpg?w=740&t=st=1700825129~exp=1700825729~hmac=f25ea8d6567e9d15b84c10ab2b775d6f0768eb8eb4f3f041d35a1e4cf7e696d6',
+		description: 'A simple weather app with react ',
+		link: 'https://sidiraos.github.io/weather_app-react/',
+		codeLink: 'https://github.com/Sidiraos/weather_app-react.git',
+		techStack: 'ReactJs, Html , Css ',
+		id: uuidv4(),
+	},
+	// javascript vanilla others projects
 	{
 		type: 'vanillaJs',
 		title: 'Porsche Car Landing Page',
@@ -99,8 +109,6 @@ export const projects = [
 		codeLink: 'https://github.com/Sidiraos/Typing-Game-App.git',
 		id: uuidv4(),
 	},
-
-	// javascript vanilla others projects
 	{
 		type: 'vanillaJs',
 		title: 'Qcm Quiz',
