@@ -9,7 +9,7 @@ export const projects = [
 		description: 'A website restaurant',
 		link: 'https://sidiraos.github.io/little-lemon/',
 		codeLink: 'https://github.com/Sidiraos/little-lemon.git',
-		techStack: ' ReactJs , Html , Css',
+		techStack: ' ReactJs , Jsx , Css',
 		id: uuidv4(),
 	},
 	{
@@ -20,7 +20,7 @@ export const projects = [
 			'A full stack App with Reactjs and Firebase for a quiz about Marvel',
 		link: 'https://marvel-quiz-27f11.web.app/',
 		codeLink: 'https://github.com/Sidiraos/marvelquiz-app.git',
-		techStack: 'ReactJs , Html , Css , Sass , Firebase',
+		techStack: 'ReactJs , Jsx , Css , Sass , Firebase',
 		id: uuidv4(),
 	},
 	{
@@ -31,7 +31,7 @@ export const projects = [
 			'A react app for searching books with google book api and add your favorite book to your list and save on localStorage',
 		link: 'https://sidiraos.github.io/Book_app',
 		codeLink: 'https://github.com/Sidiraos/Book_app',
-		techStack: 'ReactJs , Redux ,  Html , Css ',
+		techStack: 'ReactJs , Redux ,  Jsx , Css ',
 		id: uuidv4(),
 	},
 	{
@@ -41,7 +41,17 @@ export const projects = [
 		description: 'A simple weather app with react ',
 		link: 'https://sidiraos.github.io/weather_app-react/',
 		codeLink: 'https://github.com/Sidiraos/weather_app-react.git',
-		techStack: 'ReactJs, Html , Css ',
+		techStack: 'ReactJs, Jsx , Css ',
+		id: uuidv4(),
+	},
+	{
+		type: 'reactJs',
+		title: 'GeoData App',
+		img: 'https://images.unsplash.com/photo-1589262804704-c5aa9e6def89?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+		description: 'Find Informations about European Countries with GeoData Api',
+		link: 'https://sidiraos.github.io/geodata-react-app/',
+		codeLink: 'https://github.com/Sidiraos/geodata-react-app.git',
+		techStack: 'ReactJs, TailwindCss , Jsx ',
 		id: uuidv4(),
 	},
 	// pure tailwindCss project
