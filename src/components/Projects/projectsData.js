@@ -1,4 +1,5 @@
 import { v4 as uuidv4 } from 'uuid';
+import  landingTailwind  from  './landingTaiwind.png'
 
 export const projects = [
 	{
@@ -42,6 +43,18 @@ export const projects = [
 		codeLink: 'https://github.com/Sidiraos/weather_app-react.git',
 		techStack: 'ReactJs, Html , Css ',
 		id: uuidv4(),
+	},
+	// pure tailwindCss project
+	{
+		type: 'tailwindCss',
+		title: 'Landing page',
+		img: landingTailwind,
+		description: 'Landing page with tailwind',
+		link : "https://sidiraos.github.io/Landing-page-tailwindCss",
+		codeLink: 'https://github.com/Sidiraos/Landing-page-tailwindCss.git',
+		techStack: 'Html , Css, tailwindCss',
+		id: uuidv4(),
+
 	},
 	// javascript vanilla others projects
 	{
