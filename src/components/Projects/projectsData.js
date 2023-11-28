@@ -54,6 +54,16 @@ export const projects = [
 		techStack: 'ReactJs, TailwindCss , Jsx ',
 		id: uuidv4(),
 	},
+	{
+		type: 'reactJs',
+		title: 'Smart IDE',
+		img: 'https://logowik.com/content/uploads/images/visual-studio-code7642.jpg',
+		description: 'Smart front end IDE with react and redux toolkit',
+		link: 'https://sidiraos.github.io/smartIDE/',
+		codeLink: 'https://github.com/Sidiraos/smartIDE.git',
+		techStack: 'ReactJs, TailwindCss , Jsx , reduxToolkit',
+		id: uuidv4(),
+	},
 	// pure tailwindCss project
 	{
 		type: 'tailwindCss',
