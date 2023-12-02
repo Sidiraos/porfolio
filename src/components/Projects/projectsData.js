@@ -64,6 +64,16 @@ export const projects = [
 		techStack: 'ReactJs, TailwindCss , Jsx , reduxToolkit',
 		id: uuidv4(),
 	},
+	{
+		type: 'reactJs',
+		title: 'Pomodoro react App',
+		img: 'https://img.freepik.com/free-psd/alarm-clock-icon-isolated-3d-render-illustration_439185-12340.jpg?w=740&t=st=1701528665~exp=1701529265~hmac=b85e98e9528f76b6cb67e0e4468f06fcea8044a2b25a9e201848085efbf17c70',
+		description: 'Pomodoro react app with react hooks , redux toolkit',
+		link: 'https://sidiraos.github.io/pomodoro-react/',
+		codeLink: 'https://github.com/Sidiraos/pomodoro-react.git',
+		techStack: 'ReactJs, TailwindCss , Jsx , reduxToolkit',
+		id: uuidv4(),
+	},
 	// pure tailwindCss project
 	{
 		type: 'tailwindCss',
