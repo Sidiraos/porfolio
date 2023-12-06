@@ -4,6 +4,17 @@ import  landingTailwind  from  './landingTaiwind.png'
 export const projects = [
 	{
 		type: 'reactJs',
+		title: 'Marvel Quiz',
+		img: 'https://images.unsplash.com/photo-1635863138275-d9b33299680b?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+		description:
+		'A full stack App with Reactjs and Firebase for a quiz about Marvel',
+		link: 'https://marvel-quiz-27f11.web.app/',
+		codeLink: 'https://github.com/Sidiraos/marvelquiz-app.git',
+		techStack: 'ReactJs , Jsx , Css , Sass , Firebase',
+		id: uuidv4(),
+	},
+	{
+		type: 'reactJs',
 		title: 'Little Lemon',
 		img: 'https://images.unsplash.com/photo-1600891964599-f61ba0e24092?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
 		description: 'A website restaurant',
@@ -14,18 +25,17 @@ export const projects = [
 	},
 	{
 		type: 'reactJs',
-		title: 'Marvel Quiz',
-		img: 'https://images.unsplash.com/photo-1635863138275-d9b33299680b?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-		description:
-			'A full stack App with Reactjs and Firebase for a quiz about Marvel',
-		link: 'https://marvel-quiz-27f11.web.app/',
-		codeLink: 'https://github.com/Sidiraos/marvelquiz-app.git',
-		techStack: 'ReactJs , Jsx , Css , Sass , Firebase',
+		title: 'Smart IDE',
+		img: 'https://logowik.com/content/uploads/images/visual-studio-code7642.jpg',
+		description: 'Smart front end IDE with react and redux toolkit',
+		link: 'https://sidiraos.github.io/smartIDE/',
+		codeLink: 'https://github.com/Sidiraos/smartIDE.git',
+		techStack: 'ReactJs, TailwindCss , Jsx , reduxToolkit',
 		id: uuidv4(),
 	},
 	{
 		type: 'reactJs',
-		title: 'Book Search',
+		title: 'My Books',
 		img: 'https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
 		description:
 			'A react app for searching books with google book api and add your favorite book to your list and save on localStorage',
@@ -47,21 +57,11 @@ export const projects = [
 	{
 		type: 'reactJs',
 		title: 'GeoData App',
-		img: 'https://images.unsplash.com/photo-1589262804704-c5aa9e6def89?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+		img : 'https://clipart-library.com/images/zTX5nejpc.jpg',
 		description: 'Find Informations about European Countries with GeoData Api',
 		link: 'https://sidiraos.github.io/geodata-react-app/',
 		codeLink: 'https://github.com/Sidiraos/geodata-react-app.git',
 		techStack: 'ReactJs, TailwindCss , Jsx ',
-		id: uuidv4(),
-	},
-	{
-		type: 'reactJs',
-		title: 'Smart IDE',
-		img: 'https://logowik.com/content/uploads/images/visual-studio-code7642.jpg',
-		description: 'Smart front end IDE with react and redux toolkit',
-		link: 'https://sidiraos.github.io/smartIDE/',
-		codeLink: 'https://github.com/Sidiraos/smartIDE.git',
-		techStack: 'ReactJs, TailwindCss , Jsx , reduxToolkit',
 		id: uuidv4(),
 	},
 	{
@@ -71,6 +71,16 @@ export const projects = [
 		description: 'Pomodoro react app with react hooks , redux toolkit',
 		link: 'https://sidiraos.github.io/pomodoro-react/',
 		codeLink: 'https://github.com/Sidiraos/pomodoro-react.git',
+		techStack: 'ReactJs, TailwindCss , Jsx , reduxToolkit',
+		id: uuidv4(),
+	},
+	{
+		type: 'reactJs',
+		title: 'Gradient Maker',
+		img : 'https://i0.wp.com/css-tricks.com/wp-content/uploads/2020/11/css-gradient.png?fit=1200%2C600&ssl=1',
+		description: 'Create Gradient background and copy it to clipboard',
+		link: 'https://sidiraos.github.io/gradient-maker/',
+		codeLink: 'https://github.com/Sidiraos/gradient-maker.git',
 		techStack: 'ReactJs, TailwindCss , Jsx , reduxToolkit',
 		id: uuidv4(),
 	},
