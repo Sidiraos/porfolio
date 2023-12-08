@@ -15,6 +15,17 @@ export const projects = [
 	},
 	{
 		type: 'reactJs',
+		title: 'React Audio Player',
+		img:'https://img.freepik.com/free-vector/illustration-music-application-icon_53876-35882.jpg?w=740&t=st=1701939966~exp=1701940566~hmac=61dc047968553d958f9f29bc004d40d2cf059a8436ca1bcd6f44966eb954aeb9',
+		description:
+		'Customize audio player with reactjs , reduxToolkit and songs get by deezer Api',
+		link: 'https://sidiraos.github.io/react-music-player/',
+		codeLink: 'https://github.com/Sidiraos/react-music-player.git',
+		techStack: 'ReactJs , Jsx , Css , TailwindCss , reduxToolkit',
+		id: uuidv4(),
+	},
+	{
+		type: 'reactJs',
 		title: 'Little Lemon',
 		img: 'https://images.unsplash.com/photo-1600891964599-f61ba0e24092?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
 		description: 'A website restaurant',
@@ -41,7 +52,7 @@ export const projects = [
 			'A react app for searching books with google book api and add your favorite book to your list and save on localStorage',
 		link: 'https://sidiraos.github.io/Book_app',
 		codeLink: 'https://github.com/Sidiraos/Book_app',
-		techStack: 'ReactJs , Redux ,  Jsx , Css ',
+		techStack: 'ReactJs , Redux ,  Jsx , Bootstrap ',
 		id: uuidv4(),
 	},
 	{
@@ -184,7 +195,7 @@ export const projects = [
 	},
 	{
 		type: 'vanillaJs',
-		title: 'Linear gradient App',
+		title: 'Linear Gradient Colors Generator',
 		img: 'https://images.unsplash.com/photo-1579546929518-9e396f3cc809?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
 		description: 'Linear gradient color App ',
 		link: 'https://sidiraos.github.io/linear_gradient_app/',
