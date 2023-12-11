@@ -36,6 +36,16 @@ export const projects = [
 	},
 	{
 		type: 'reactJs',
+		title: 'Mug Shop',
+		img : 'https://i.pinimg.com/564x/99/15/ab/9915ab232003cd63f5bf09d1a1853a43.jpg',
+		description: 'buy your favorite mug customized for developpers',
+		link: 'https://sidiraos.github.io/mug-shop/',
+		codeLink: 'https://github.com/Sidiraos/mug-shop.git',
+		techStack: ' ReactJs , Jsx , Css , TailwindCss , reduxToolkit',
+		id: uuidv4(),
+	},
+	{
+		type: 'reactJs',
 		title: 'Smart IDE',
 		img: 'https://logowik.com/content/uploads/images/visual-studio-code7642.jpg',
 		description: 'Smart front end IDE with react and redux toolkit',
