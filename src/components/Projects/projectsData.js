@@ -150,17 +150,17 @@ export const projects = [
 		techStack: 'Vanilla JavaScript , Html , Css',
 		id: uuidv4(),
 	},
-	// {
-	// 	type: 'vanillaJs',
-	// 	title: 'Air Quality App',
-	// 	img: 'https://i.pinimg.com/originals/06/c4/f7/06c4f70ec5931e2342e703e8a3f0a253.png',
-	// 	description:
-	// 		'An App wich measures the air quality that can fetch the air quality of any city with vanilla Js',
-	// 	link: 'https://sidiraos.github.io/Air-quality-App-/',
-	// 	techStack: 'Vanilla JavaScript , Html , Css',
-	// 	codeLink: 'https://github.com/Sidiraos/Air-quality-App-',
-	// 	id: uuidv4(),
-	// },
+	{
+		type: 'vanillaJs',
+		title: 'Air Quality App',
+		img: 'https://i.pinimg.com/originals/06/c4/f7/06c4f70ec5931e2342e703e8a3f0a253.png',
+		description:
+			'An App wich measures the air quality that can fetch the air quality of any city with vanilla Js',
+		link: 'https://sidiraos.github.io/Air-quality-App/',
+		techStack: 'Vanilla JavaScript , Html , Css',
+		codeLink: 'https://github.com/Sidiraos/Air-quality-App.git',
+		id: uuidv4(),
+	},
 	{
 		type: 'vanillaJs',
 		title: 'Infinite Scroll',
