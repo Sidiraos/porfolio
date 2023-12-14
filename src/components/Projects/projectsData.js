@@ -1,5 +1,5 @@
 import { v4 as uuidv4 } from 'uuid';
-import  landingTailwind  from  './landingTaiwind.png'
+import landingTailwind from './landingTaiwind.png';
 
 export const projects = [
 	{
@@ -7,7 +7,7 @@ export const projects = [
 		title: 'Marvel Quiz',
 		img: 'https://images.unsplash.com/photo-1635863138275-d9b33299680b?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
 		description:
-		'A full stack App with Reactjs and Firebase for a quiz about Marvel',
+			'A full stack App with Reactjs and Firebase for a quiz about Marvel',
 		link: 'https://marvel-quiz-27f11.web.app/',
 		codeLink: 'https://github.com/Sidiraos/marvelquiz-app.git',
 		techStack: 'ReactJs , Jsx , Css , Sass , Firebase',
@@ -16,9 +16,9 @@ export const projects = [
 	{
 		type: 'reactJs',
 		title: 'React Audio Player',
-		img:'https://img.freepik.com/free-vector/illustration-music-application-icon_53876-35882.jpg?w=740&t=st=1701939966~exp=1701940566~hmac=61dc047968553d958f9f29bc004d40d2cf059a8436ca1bcd6f44966eb954aeb9',
+		img: 'https://img.freepik.com/free-vector/illustration-music-application-icon_53876-35882.jpg?w=740&t=st=1701939966~exp=1701940566~hmac=61dc047968553d958f9f29bc004d40d2cf059a8436ca1bcd6f44966eb954aeb9',
 		description:
-		'Customize audio player with reactjs , reduxToolkit and songs get by deezer Api',
+			'Customize audio player with reactjs , reduxToolkit and songs get by deezer Api',
 		link: 'https://sidiraos.github.io/react-music-player/',
 		codeLink: 'https://github.com/Sidiraos/react-music-player.git',
 		techStack: 'ReactJs , Jsx , Css , TailwindCss , reduxToolkit',
@@ -37,7 +37,7 @@ export const projects = [
 	{
 		type: 'reactJs',
 		title: 'Mug Shop',
-		img : 'https://i.pinimg.com/564x/99/15/ab/9915ab232003cd63f5bf09d1a1853a43.jpg',
+		img: 'https://i.pinimg.com/564x/99/15/ab/9915ab232003cd63f5bf09d1a1853a43.jpg',
 		description: 'buy your favorite mug customized for developpers',
 		link: 'https://sidiraos.github.io/mug-shop/',
 		codeLink: 'https://github.com/Sidiraos/mug-shop.git',
@@ -78,8 +78,9 @@ export const projects = [
 	{
 		type: 'reactJs',
 		title: 'GeoData App',
-		img : 'https://clipart-library.com/images/zTX5nejpc.jpg',
-		description: 'Find Informations about European Countries with GeoData Api',
+		img: 'https://clipart-library.com/images/zTX5nejpc.jpg',
+		description:
+			'Find Informations about European Countries with GeoData Api',
 		link: 'https://sidiraos.github.io/geodata-react-app/',
 		codeLink: 'https://github.com/Sidiraos/geodata-react-app.git',
 		techStack: 'ReactJs, TailwindCss , Jsx ',
@@ -98,11 +99,22 @@ export const projects = [
 	{
 		type: 'reactJs',
 		title: 'Gradient Maker',
-		img : 'https://i0.wp.com/css-tricks.com/wp-content/uploads/2020/11/css-gradient.png?fit=1200%2C600&ssl=1',
+		img: 'https://i0.wp.com/css-tricks.com/wp-content/uploads/2020/11/css-gradient.png?fit=1200%2C600&ssl=1',
 		description: 'Create Gradient background and copy it to clipboard',
 		link: 'https://sidiraos.github.io/gradient-maker/',
 		codeLink: 'https://github.com/Sidiraos/gradient-maker.git',
 		techStack: 'ReactJs, TailwindCss , Jsx , reduxToolkit',
+		id: uuidv4(),
+	},
+	{
+		type: 'reactJs',
+		title: 'Infinity Scroll Gallery React',
+		img: 'https://images.unsplash.com/photo-1606778303039-9fc1488b1d8a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+		description:
+			'Scroll Infinity with React by using unsplash api for generating images',
+		link: 'https://sidiraos.github.io/infinity-scroll-react/',
+		codeLink: 'https://github.com/Sidiraos/infinity-scroll-react.git',
+		techStack: 'ReactJs, TailwindCss , Jsx',
 		id: uuidv4(),
 	},
 	// pure tailwindCss project
@@ -111,11 +123,10 @@ export const projects = [
 		title: 'Landing page',
 		img: landingTailwind,
 		description: 'Landing page with tailwind',
-		link : "https://sidiraos.github.io/Landing-page-tailwindCss",
+		link: 'https://sidiraos.github.io/Landing-page-tailwindCss',
 		codeLink: 'https://github.com/Sidiraos/Landing-page-tailwindCss.git',
 		techStack: 'Html , Css, tailwindCss',
 		id: uuidv4(),
-
 	},
 	// javascript vanilla others projects
 	{
