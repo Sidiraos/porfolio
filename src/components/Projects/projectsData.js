@@ -1,6 +1,5 @@
 import { v4 as uuidv4 } from 'uuid';
-import landingTailwind from './landingTaiwind.png';
-
+import landingTailwind from '../../assets/projects_images/landingTaiwind.png';
 export const projects = [
 	{
 		type: 'reactJs',
@@ -10,7 +9,19 @@ export const projects = [
 			'A full stack App with Reactjs and Firebase for a quiz about Marvel',
 		link: 'https://marvel-quiz-27f11.web.app/',
 		codeLink: 'https://github.com/Sidiraos/marvelquiz-app.git',
-		techStack: 'ReactJs , Jsx , Css , Sass , Firebase',
+		techStack: 'ReactJs , Jsx , Css , Sass , react-router-dom , Firebase',
+		id: uuidv4(),
+	},
+	{
+		type: 'reactJs',
+		title: 'Notes101',
+		img: 'https://img.freepik.com/free-vector/notepad-study-closeup-icon-illustration_32991-1011.jpg?w=740&t=st=1702643490~exp=1702644090~hmac=d2ecab98bbb6e50096518c1fc1656c686d005ec72538230a4fd154ec0f1fed67',
+		description:
+			'Crée , Modifier et Supprimer des notes comme dans Evernote',
+		link: 'https://sidiraos.github.io/note101/',
+		codeLink: 'https://github.com/Sidiraos/note101.git',
+		techStack:
+			'ReactJs , Jsx , Css , TailwindCss , ReduxToolkit , react-router-dom , vite',
 		id: uuidv4(),
 	},
 	{
@@ -21,7 +32,7 @@ export const projects = [
 			'Customize audio player with reactjs , reduxToolkit and songs get by deezer Api',
 		link: 'https://sidiraos.github.io/react-music-player/',
 		codeLink: 'https://github.com/Sidiraos/react-music-player.git',
-		techStack: 'ReactJs , Jsx , Css , TailwindCss , reduxToolkit',
+		techStack: 'ReactJs , Jsx , Css , TailwindCss , reduxToolkit , vite',
 		id: uuidv4(),
 	},
 	{
@@ -41,7 +52,7 @@ export const projects = [
 		description: 'buy your favorite mug customized for developpers',
 		link: 'https://sidiraos.github.io/mug-shop/',
 		codeLink: 'https://github.com/Sidiraos/mug-shop.git',
-		techStack: ' ReactJs , Jsx , Css , TailwindCss , reduxToolkit',
+		techStack: ' ReactJs , Jsx , Css , TailwindCss , reduxToolkit, vite',
 		id: uuidv4(),
 	},
 	{
@@ -51,7 +62,7 @@ export const projects = [
 		description: 'Smart front end IDE with react and redux toolkit',
 		link: 'https://sidiraos.github.io/smartIDE/',
 		codeLink: 'https://github.com/Sidiraos/smartIDE.git',
-		techStack: 'ReactJs, TailwindCss , Jsx , reduxToolkit',
+		techStack: 'ReactJs, TailwindCss , Jsx , reduxToolkit , vite',
 		id: uuidv4(),
 	},
 	{
@@ -62,7 +73,7 @@ export const projects = [
 			'A react app for searching books with google book api and add your favorite book to your list and save on localStorage',
 		link: 'https://sidiraos.github.io/Book_app',
 		codeLink: 'https://github.com/Sidiraos/Book_app',
-		techStack: 'ReactJs , Redux ,  Jsx , Bootstrap ',
+		techStack: 'ReactJs , Redux ,  Jsx , Bootstrap , react-router-dom ',
 		id: uuidv4(),
 	},
 	{
@@ -83,7 +94,7 @@ export const projects = [
 			'Find Informations about European Countries with GeoData Api',
 		link: 'https://sidiraos.github.io/geodata-react-app/',
 		codeLink: 'https://github.com/Sidiraos/geodata-react-app.git',
-		techStack: 'ReactJs, TailwindCss , Jsx ',
+		techStack: 'ReactJs, TailwindCss , Jsx , vite ',
 		id: uuidv4(),
 	},
 	{
@@ -93,7 +104,7 @@ export const projects = [
 		description: 'Pomodoro react app with react hooks , redux toolkit',
 		link: 'https://sidiraos.github.io/pomodoro-react/',
 		codeLink: 'https://github.com/Sidiraos/pomodoro-react.git',
-		techStack: 'ReactJs, TailwindCss , Jsx , reduxToolkit',
+		techStack: 'ReactJs, TailwindCss , Jsx , reduxToolkit , vite',
 		id: uuidv4(),
 	},
 	{
@@ -103,7 +114,7 @@ export const projects = [
 		description: 'Create Gradient background and copy it to clipboard',
 		link: 'https://sidiraos.github.io/gradient-maker/',
 		codeLink: 'https://github.com/Sidiraos/gradient-maker.git',
-		techStack: 'ReactJs, TailwindCss , Jsx , reduxToolkit',
+		techStack: 'ReactJs, TailwindCss , Jsx , reduxToolkit , vite',
 		id: uuidv4(),
 	},
 	{
@@ -114,7 +125,7 @@ export const projects = [
 			'Scroll Infinity with React by using unsplash api for generating images',
 		link: 'https://sidiraos.github.io/infinity-scroll-react/',
 		codeLink: 'https://github.com/Sidiraos/infinity-scroll-react.git',
-		techStack: 'ReactJs, TailwindCss , Jsx',
+		techStack: 'ReactJs, TailwindCss , Jsx, vite',
 		id: uuidv4(),
 	},
 	// pure tailwindCss project
