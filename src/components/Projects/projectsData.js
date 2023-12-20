@@ -2,6 +2,16 @@ import { v4 as uuidv4 } from 'uuid';
 import landingTailwind from '../../assets/projects_images/landingTaiwind.png';
 export const projects = [
 	{
+		type: 'NextJs ,TypeScript',
+		title: 'Blog',
+		img: 'https://upload.wikimedia.org/wikipedia/commons/4/42/Blog_%281%29.jpg',
+		description: 'A Blog with NextJs and TypeScript',
+		link: 'https://blog-five-tan-26.vercel.app/',
+		codeLink: 'https://github.com/Sidiraos/blog.io.git',
+		techStack: 'NextJs , TypeScript , TailwindCss',
+		id: uuidv4(),
+	},
+	{
 		type: 'reactJs',
 		title: 'Marvel Quiz',
 		img: 'https://images.unsplash.com/photo-1635863138275-d9b33299680b?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',

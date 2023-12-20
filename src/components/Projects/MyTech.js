@@ -16,10 +16,11 @@ import python from '../../assets/technologies_logo/python.png';
 import nodeJs from '../../assets/technologies_logo/nodejs.jpg';
 import mongoDb from '../../assets/technologies_logo/MongoDB-Logo.jpg';
 import useObserver from '../../customHooks/useObserver';
+ const nextJs  = 'https://static-00.iconduck.com/assets.00/nextjs-icon-2048x1234-pqycciiu.png'
 
 
 const MyTech = () => {
-    const techStack = [html , js ,git , react , firebase , redux , css , github , bootstrap , sass , tailwind , vscode , typeScript , python , nodeJs , mongoDb]
+    const techStack = [html , js ,git , react , firebase , redux , css , github , bootstrap , sass , tailwind , vscode , typeScript , python , nodeJs , mongoDb , nextJs]
     const techStackTitleRef = useRef()
     const techStackParagraphRef = useRef()
     const techStackImageRef = useRef()
